@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flyer version="1.0" name="Мероприятие">
+  <page size="A4" orientation="portrait" width="794" height="1123">
+    <background color="#0f172a"/>
+    <elements>
+      <element id="e1" type="text" x="40" y="80" width="714" height="100" zIndex="0" locked="false">
+        <text>LIVE CONCERT</text>
+        <style fontFamily="Arial" fontSize="64" color="#f472b6" align="center" bold="true" italic="false"/>
+      </element>
+      <element id="e2" type="text" x="40" y="220" width="714" height="50" zIndex="1" locked="false">
+        <text>20 июня • Главная площадь</text>
+        <style fontFamily="Arial" fontSize="28" color="#e2e8f0" align="center" bold="false" italic="false"/>
+      </element>
+      <element id="e3" type="rect" x="147" y="350" width="500" height="400" zIndex="2" locked="false">
+        <style fill="#1e293b" stroke="#f472b6" strokeWidth="4" opacity="1"/>
+      </element>
+      <element id="e4" type="text" x="40" y="850" width="714" height="80" zIndex="3" locked="false">
+        <text>Вход свободный • Начало в 18:00</text>
+        <style fontFamily="Arial" fontSize="24" color="#94a3b8" align="center" bold="false" italic="false"/>
+      </element>
+    </elements>
+  </page>
+</flyer>

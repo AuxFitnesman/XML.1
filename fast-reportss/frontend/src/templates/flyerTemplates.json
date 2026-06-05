@@ -1,0 +1,102 @@
+{
+  "templates": [
+    {
+      "id": "sale",
+      "name": "Распродажа",
+      "description": "Яркий шаблон для акций",
+      "data": {
+        "width": 794,
+        "height": 1123,
+        "background": "#ff6b6b",
+        "objects": [
+          {
+            "type": "i-text",
+            "text": "РАСПРОДАЖА!",
+            "left": 150,
+            "top": 200,
+            "fontSize": 72,
+            "fill": "#ffffff",
+            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "angle": -10
+          },
+          {
+            "type": "i-text",
+            "text": "Скидки до 50%",
+            "left": 200,
+            "top": 350,
+            "fontSize": 48,
+            "fill": "#ffd93d",
+            "fontWeight": "bold",
+            "fontFamily": "Arial"
+          }
+        ]
+      }
+    },
+    {
+      "id": "invitation",
+      "name": "Приглашение",
+      "description": "Элегантное приглашение",
+      "data": {
+        "width": 794,
+        "height": 1123,
+        "background": "#4ecdc4",
+        "objects": [
+          {
+            "type": "i-text",
+            "text": "ПРИГЛАШЕНИЕ",
+            "left": 180,
+            "top": 150,
+            "fontSize": 56,
+            "fill": "#ffffff",
+            "fontWeight": "bold",
+            "fontFamily": "Times New Roman",
+            "textAlign": "center"
+          },
+          {
+            "type": "i-text",
+            "text": "Вы приглашены\nна наше мероприятие",
+            "left": 250,
+            "top": 350,
+            "fontSize": 36,
+            "fill": "#2c3e50",
+            "textAlign": "center",
+            "fontFamily": "Times New Roman"
+          }
+        ]
+      }
+    },
+    {
+      "id": "menu",
+      "name": "Меню",
+      "description": "Шаблон для кафе",
+      "data": {
+        "width": 794,
+        "height": 1123,
+        "background": "#ffeaa7",
+        "objects": [
+          {
+            "type": "i-text",
+            "text": "НАШЕ МЕНЮ",
+            "left": 220,
+            "top": 100,
+            "fontSize": 64,
+            "fill": "#2d3436",
+            "fontWeight": "bold",
+            "fontFamily": "Arial",
+            "textAlign": "center"
+          },
+          {
+            "type": "i-text",
+            "text": "Пицца Маргарита - 450₽",
+            "left": 150,
+            "top": 235,
+            "fontSize": 28,
+            "fill": "#ffffff",
+            "fontFamily": "Arial"
+          }
+        ]
+      }
+    }
+  ]
+}

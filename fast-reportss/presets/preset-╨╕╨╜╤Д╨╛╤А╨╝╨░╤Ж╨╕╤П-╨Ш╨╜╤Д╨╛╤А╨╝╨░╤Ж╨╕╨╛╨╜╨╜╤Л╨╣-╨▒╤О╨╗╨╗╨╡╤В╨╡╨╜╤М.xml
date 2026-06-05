@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flyer version="1.0" name="Информационный бюллетень">
+  <page size="A4" orientation="landscape" width="1123" height="794">
+    <background color="#f0f9ff"/>
+    <elements>
+      <element id="n1" type="text" x="50" y="40" width="500" height="50" zIndex="0" locked="false">
+        <text>НОВОСТИ НЕДЕЛИ</text>
+        <style fontFamily="Arial" fontSize="36" color="#0369a1" align="left" bold="true" italic="false"/>
+      </element>
+      <element id="n2" type="rect" x="50" y="110" width="500" height="4" zIndex="1" locked="false">
+        <style fill="#0369a1" stroke="transparent" strokeWidth="0" opacity="1"/>
+      </element>
+      <element id="n3" type="text" x="50" y="140" width="500" height="300" zIndex="2" locked="false">
+        <text>• Открытие нового филиала
+• Обновление ассортимента
+• Программа лояльности для клиентов</text>
+        <style fontFamily="Arial" fontSize="22" color="#334155" align="left" bold="false" italic="false"/>
+      </element>
+      <element id="n4" type="rect" x="600" y="40" width="473" height="714" zIndex="3" locked="false">
+        <style fill="#bae6fd" stroke="#0284c7" strokeWidth="2" opacity="1"/>
+      </element>
+      <element id="n5" type="text" x="620" y="350" width="433" height="60" zIndex="4" locked="false">
+        <text>Место для фото</text>
+        <style fontFamily="Arial" fontSize="24" color="#64748b" align="center" bold="false" italic="false"/>
+      </element>
+    </elements>
+  </page>
+</flyer>

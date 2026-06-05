@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flyer version="1.0" name="Приглашение">
+  <page size="A5" orientation="portrait" width="559" height="794">
+    <background color="#fdf6ec"/>
+    <elements>
+      <element id="i1" type="rect" x="30" y="30" width="499" height="734" zIndex="0" locked="false">
+        <style fill="transparent" stroke="#c9a227" strokeWidth="3" opacity="1"/>
+      </element>
+      <element id="i2" type="text" x="40" y="120" width="479" height="60" zIndex="1" locked="false">
+        <text>Вы приглашены</text>
+        <style fontFamily="Georgia" fontSize="36" color="#5c4033" align="center" bold="false" italic="true"/>
+      </element>
+      <element id="i3" type="text" x="40" y="220" width="479" height="100" zIndex="2" locked="false">
+        <text>Торжественный вечер
+15 июня 2026</text>
+        <style fontFamily="Georgia" fontSize="28" color="#333333" align="center" bold="false" italic="false"/>
+      </element>
+      <element id="i4" type="text" x="40" y="500" width="479" height="80" zIndex="3" locked="false">
+        <text>Начало в 19:00
+Ресторан «Золотой зал»</text>
+        <style fontFamily="Arial" fontSize="18" color="#666666" align="center" bold="false" italic="false"/>
+      </element>
+    </elements>
+  </page>
+</flyer>

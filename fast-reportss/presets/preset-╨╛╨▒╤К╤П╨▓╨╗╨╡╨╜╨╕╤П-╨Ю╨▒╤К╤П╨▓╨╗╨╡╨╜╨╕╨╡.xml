@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flyer version="1.0" name="Объявление">
+  <page size="A4" orientation="portrait" width="794" height="1123">
+    <background color="#ffffff"/>
+    <elements>
+      <element id="o1" type="rect" x="40" y="40" width="714" height="120" zIndex="0" locked="false">
+        <style fill="#2563eb" stroke="transparent" strokeWidth="0" opacity="1"/>
+      </element>
+      <element id="o2" type="text" x="60" y="75" width="674" height="60" zIndex="1" locked="false">
+        <text>ОБЪЯВЛЕНИЕ</text>
+        <style fontFamily="Arial" fontSize="42" color="#ffffff" align="center" bold="true" italic="false"/>
+      </element>
+      <element id="o3" type="text" x="60" y="200" width="674" height="400" zIndex="2" locked="false">
+        <text>Уважаемые жители!
+
+Сообщаем о проведении работ по благоустройству двора с 1 по 10 июня. Просим учитывать временные ограничения парковки.
+
+Администрация.</text>
+        <style fontFamily="Arial" fontSize="20" color="#1f2937" align="left" bold="false" italic="false"/>
+      </element>
+    </elements>
+  </page>
+</flyer>

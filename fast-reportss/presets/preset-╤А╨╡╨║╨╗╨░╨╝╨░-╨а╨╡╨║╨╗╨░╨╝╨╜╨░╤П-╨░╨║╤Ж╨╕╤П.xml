@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<flyer version="1.0" name="Рекламная акция">
+  <page size="A4" orientation="portrait" width="794" height="1123">
+    <background color="#1a1a2e"/>
+    <elements>
+      <element id="t1" type="rect" x="0" y="0" width="794" height="200" zIndex="0" locked="false">
+        <style fill="#e94560" stroke="transparent" strokeWidth="0" opacity="1"/>
+      </element>
+      <element id="t2" type="text" x="50" y="60" width="694" height="80" zIndex="1" locked="false">
+        <text>СКИДКА 50%</text>
+        <style fontFamily="Arial" fontSize="56" color="#ffffff" align="center" bold="true" italic="false"/>
+      </element>
+      <element id="t3" type="text" x="50" y="280" width="694" height="60" zIndex="2" locked="false">
+        <text>Только до конца месяца!</text>
+        <style fontFamily="Arial" fontSize="32" color="#ffffff" align="center" bold="false" italic="false"/>
+      </element>
+      <element id="t4" type="text" x="80" y="400" width="634" height="200" zIndex="3" locked="false">
+        <text>Подробности уточняйте у продавцов.
+Адрес: ул. Примерная, 1</text>
+        <style fontFamily="Arial" fontSize="22" color="#eaeaea" align="left" bold="false" italic="false"/>
+      </element>
+    </elements>
+  </page>
+</flyer>

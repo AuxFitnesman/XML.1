@@ -1,0 +1,21 @@
+{
+  "name": "fast-reports-backend",
+  "version": "1.0.0",
+  "description": "Сервис листовок на XML-шаблонах",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jimp": "^1.6.0",
+    "multer": "^2.0.1",
+    "pdfkit": "^0.15.2",
+    "uuid": "^11.0.3",
+    "xml2js": "^0.6.2"
+  }
+}
